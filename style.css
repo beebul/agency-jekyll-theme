@@ -40,3 +40,27 @@ layout: style
         opacity: 1;
     }
 }
+
+.underline {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+.underline:after {
+  position: absolute;
+  content: '';
+  bottom: -2px;
+  left: 0px;
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  animation: underline .7s; /* remove infinite if you want only once */
+  animation: underline 1.0s forwards;
+  -webkit-animation: underline 1.0s forwards; /* for less modern browsers */
+}
+@keyframes underline {
+  to {
+    width: 100%;
+  }
+}
