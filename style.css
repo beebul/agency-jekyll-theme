@@ -55,9 +55,9 @@ layout: style
   height: 2px;
   width: 0%;
   background-color: white;
-  animation: underline .7s; /* remove infinite if you want only once */
-  animation: underline 1.0s forwards;
-  -webkit-animation: underline 1.0s forwards; /* for less modern browsers */
+  animation: underline 1.2s; /* remove infinite if you want only once */
+  animation: underline 1.2s forwards;
+  -webkit-animation: underline 1.2s forwards; /* for less modern browsers */
 }
 @keyframes underline {
   to {
