@@ -1,13 +1,28 @@
 ---
 layout: style
 ---
-.intro-heading {
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+
+header .vertical-center {
+  position: absolute;
+  top:50%;
+  left: 0%;
+  right: 0%;
+  transform:translate(0%, -50%);
+  -webkit-transform:translate(0%, -50%);
+  linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
 }
-  
+
+
+.intro-heading {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+
   @keyframes fadein {
     from {
         opacity:0;
@@ -55,9 +70,9 @@ layout: style
   height: 2px;
   width: 0%;
   background-color: white;
-  animation: underline 1.2s; /* remove infinite if you want only once */
-  animation: underline 1.2s forwards;
-  -webkit-animation: underline 1.2s forwards; /* for less modern browsers */
+  animation: underline 2s; /* remove infinite if you want only once */
+  animation: underline 2s forwards;
+  -webkit-animation: underline 2s forwards; /* for less modern browsers */
 }
 @keyframes underline {
   to {
