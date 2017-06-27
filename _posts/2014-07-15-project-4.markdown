@@ -1,5 +1,5 @@
 ---
-title: bedding-pause-point
+title: Bedding Pause-Point
 subtitle: Display
 layout: default
 modal-id: 4
@@ -10,6 +10,6 @@ alt: bedding-pause-point
 project-date: April 2014
 client: David Jones
 category: Visual Merchandising
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. 
 
 ---
