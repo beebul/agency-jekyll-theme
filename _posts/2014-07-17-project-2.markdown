@@ -9,7 +9,7 @@ thumbnail: thumbs/adelaide-cup-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: David Jones
-category: Holiday Season
+category: Public Holiday
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. 
 
 ---
