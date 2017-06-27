@@ -2,7 +2,7 @@
 title: Dining
 subtitle: Display
 layout: default
-modal-id: 16
+modal-id: 11
 date: 2014-07-14
 img: dining.jpg
 thumbnail: thumbs/dining-thumbnail.jpg
