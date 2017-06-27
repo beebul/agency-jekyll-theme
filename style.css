@@ -9,10 +9,8 @@ header .vertical-center {
   right: 0%;
   transform:translate(0%, -50%);
   -webkit-transform:translate(0%, -50%);
-  linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-    ),
+  display: block;
+  /*background: rgba(0,0,0, 0.5);*/
 }
 
 
@@ -21,6 +19,8 @@ header .vertical-center {
     -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
+    display: block;
+    display: block;
 }
 
   @keyframes fadein {
