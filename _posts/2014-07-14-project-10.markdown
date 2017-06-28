@@ -9,6 +9,6 @@ thumbnail: thumbs/dining-and-china-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: David Jones
-category: Visual Merchandising
+category: Dining
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 ---

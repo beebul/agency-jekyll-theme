@@ -9,6 +9,6 @@ thumbnail: thumbs/christmas-dining-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: David Jones
-category: Visual Merchandising
+category: Public Holiday
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 ---
