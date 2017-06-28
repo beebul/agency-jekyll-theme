@@ -8,8 +8,7 @@
 
         <div class="button-group filter-button-group">
           {% for category in site.categories %}
-          <a class="btn button" data-filter=".{{ category | first | slugify }}">{{ category | first }}</a> 
-          {% endfor %}
+          <a class="btn button" data-filter=".{{ category | first | slugify }}">{{ category | first }}</a> {% endfor %}
           <a class="btn button active" data-filter="*">All</a>
         </div><br><br>
 
@@ -41,33 +40,49 @@
 <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
 <script>
-    // init Isotope
-    var $grid = $('.grid').isotope({
-      // options
+  // init Isotope
+  var $grid = $('.grid').isotope({
+    // options
+  });
+  // filter items on button click
+  $('.filter-button-group').on('click', 'a', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({
+      filter: filterValue
     });
-    // filter items on button click
-    $('.filter-button-group').on('click', 'a', function() {
-      var filterValue = $(this).attr('data-filter');
-      $grid.isotope({
-        filter: filterValue
-      });
-    });
-    $('.button-group a.button').on('click', function() {
-      $('.button-group a.button').removeClass('active');
-      $(this).addClass('active');
-    });
+  });
+  $('.button-group a.button').on('click', function() {
+    $('.button-group a.button').removeClass('active');
+    $(this).addClass('active');
+  });
 
+
+  var iso = new Isotope(elem, {
+    // options
+    itemSelector: '.grid-item',
+    layoutMode: 'fitRows'
+  }); // element argument can be a selector string
+  //   for an individual element
+  var iso = new Isotope('.grid', {
+    // options
+  });
 </script>
 
 <style type="text/css">
   a.button.active {
     background: #fec503;
     color: #333;
+    font-weight: bolder;
   }
 
   a.button {
-    background: grey;
     border: 1px solid #333;
-    color: #fff;
+    color: #333;
+    margin: 1rem;
+  }
+  
+  a.button:hover {
+    color: #333;
+    font-weight: bolder;
   }
 </style>
