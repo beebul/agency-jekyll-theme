@@ -8,7 +8,8 @@
 
         <div class="button-group filter-button-group">
           {% for category in site.categories %}
-          <a class="btn button" data-filter=".{{ category | first }}">{{ category | first }}</a> {% endfor %}
+          <a class="btn button" data-filter=".{{ category | first | slugify }}">{{ category | first }}</a> 
+          {% endfor %}
           <a class="btn button active" data-filter="*">All</a>
         </div><br><br>
 
@@ -17,7 +18,7 @@
 
     <div class="row grid">
       {% for post in site.posts %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
+      <div class="col-md-4 col-sm-6 portfolio-item {{ post.category | slugify }}">
         <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
