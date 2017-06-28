@@ -1,14 +1,14 @@
 ---
-title: Fashion Pause-Point 
+title: Homewares Overhead
 subtitle: Display
 layout: default
-modal-id: 13
+modal-id: 19
 date: 2014-07-14
-img: fashion-pause-point.jpg
-thumbnail: thumbs/fashion-pause-point-thumbnail.jpg
+img: homewares-overhead.jpg
+thumbnail: thumbs/homewares-overhead-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: David Jones
-category: Fashion
+category: Home
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 ---

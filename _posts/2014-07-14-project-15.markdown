@@ -1,14 +1,14 @@
 ---
-title: Fashion Pause-Point 
+title: High Tea Dining
 subtitle: Display
 layout: default
-modal-id: 13
+modal-id: 15
 date: 2014-07-14
-img: fashion-pause-point.jpg
-thumbnail: thumbs/fashion-pause-point-thumbnail.jpg
+img: high-tea-dining.jpg
+thumbnail: thumbs/high-tea-dining-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: David Jones
-category: Fashion
+category: Dining
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
 ---
