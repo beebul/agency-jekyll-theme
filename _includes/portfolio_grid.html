@@ -36,7 +36,6 @@
   </div>
 </section>
 
-
 <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
 <script>
@@ -55,17 +54,6 @@
     $('.button-group a.button').removeClass('active');
     $(this).addClass('active');
   });
-
-
-  var iso = new Isotope(elem, {
-    // options
-    itemSelector: '.grid-item',
-    layoutMode: 'fitRows'
-  }); // element argument can be a selector string
-  //   for an individual element
-  var iso = new Isotope('.grid', {
-    // options
-  });
 </script>
 
 <style type="text/css">
@@ -80,9 +68,14 @@
     color: #333;
     margin: 1rem;
   }
-  
+
   a.button:hover {
     color: #333;
     font-weight: bolder;
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+    a.button { font-size: .8rem; margin: .5rem; }
   }
 </style>
